@@ -1,0 +1,47 @@
+.about{
+    background-color: rgba(0, 0, 0, 0.953);
+    height: 95vh;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    padding: 50px;
+}
+
+.text{
+    align-items: center;
+    max-width: 800px;
+    padding: 30px;
+}
+
+h3{
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+p{
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.icons {
+    color: var(--dark-pink);
+    display: flex;
+    flex-wrap: wrap; /* <- isso aqui permite quebra */
+    gap: 10px;        /* opcional: adiciona espaçamento entre os ícones */
+    justify-content: center; /* centraliza os ícones quando quebra */
+    max-width: 400px;
+  }
+  
+.icon{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.icon:hover{
+    transform: translateY(-5px);
+}

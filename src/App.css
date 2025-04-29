@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.allerta-regular {
+    font-family: "Allerta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+:root {
+    --primary-color: #F291A3;
+    --secondary-color: #F23D5E;
+    --gray-color: #0c0c0c;
+    --dark-pink: rgb(88, 30, 40);
+  }
+
+  
