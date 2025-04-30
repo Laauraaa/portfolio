@@ -1,19 +1,25 @@
 .about{
     background-color: rgba(0, 0, 0, 0.953);
-    height: 95vh;
-    
+    height: 100vh;
 
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
     
     padding: 50px;
 }
 
-.text{
+.text_area{
+    display: flex;
     align-items: center;
-    max-width: 800px;
+    justify-content: center;
+    gap: 48px;
     padding: 30px;
+}
+
+.text{
+    max-width: 800px;
 }
 
 h3{
@@ -21,27 +27,61 @@ h3{
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 p{
     color: var(--primary-color);
-    font-size: 20px;
 }
-.icons {
-    color: var(--dark-pink);
+
+.icon_me{
+    border-radius: 150px;
+}
+
+
+.skills{
     display: flex;
-    flex-wrap: wrap; /* <- isso aqui permite quebra */
-    gap: 10px;        /* opcional: adiciona espaçamento entre os ícones */
-    justify-content: center; /* centraliza os ícones quando quebra */
-    max-width: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skill_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
   }
   
 .icon{
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
+    display: flex;
     margin: 5px;
     border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
+    color: var(--dark-pink);
+
+    transition: color 0.3s, transform 0.3s ease;
 }
 .icon:hover{
-    transform: translateY(-5px);
+    color: var(--secondary-color);
+    transform: scale(1.2);
 }

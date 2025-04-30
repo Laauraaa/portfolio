@@ -40,7 +40,6 @@ header {
     padding: 15px 0;
     color: var(--primary-color);
     font-size: 12px;
-    border-bottom: 1px solid var(--secondary-color);
   
     position: sticky;
     top: 0;
@@ -50,6 +49,7 @@ header {
   }
   nav p {
     transition: transform 0.2s ease;
+    font-size: 20px;
   }
   nav p:hover{
     transform: translateY(-5px);
