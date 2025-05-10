@@ -1,9 +1,8 @@
 .projects{
     padding: 100px;
-
+    justify-content: center;
     height: 100vh;
     display: flex;
-    
 
     flex-direction: column;
 }
@@ -12,14 +11,11 @@ h2{
 } 
 .projects h2{
     font-size: 30px;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    margin-bottom: 20px;
 }
 .view {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    justify-items: center;
-    gap: 40px;
+    display: flex;
+    align-items: center;
   }
   
 .project{
@@ -27,12 +23,12 @@ h2{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 15px;
-
+    margin: 15px;
     padding: 20px;
-    margin: 20px;
+    
     border-radius: 15px;
     background-color: var(--gray-color);
 
@@ -50,7 +46,6 @@ img{
     box-shadow:  2px 2px 5px rgba(0, 0, 0, 0.19);
 }
 .tecs{
-    justify-content: left;
     display: flex;
     gap: 10px;
 }
@@ -58,7 +53,6 @@ img{
     color:rgb(88, 30, 40);
     width: 20px;
     height: 20px;
-    display: flex;
 }
 .button1, .button2{
     max-width: 150px;
@@ -83,3 +77,113 @@ img{
     transform: translateY(-5px);
     box-shadow:  2px 2px 15px 2px rgba(220, 149, 149, 0.092);
 }
+
+.sliderContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .carousel{
+    max-width: 1200px;
+    margin:0 auto;
+    position: relative;
+  }
+  @media (max-width: 1024px) {
+    .carousel{
+      max-width: 700px;
+    }
+    .projects { 
+      text-align: center;
+      align-items: center;
+      padding: 0px;
+    }
+  
+    .view {
+      flex-direction: column;
+      gap: 30px;
+      
+    }
+  
+    .project {
+      max-width: 80%;
+      margin: 0 auto;
+      padding: 30px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .p {
+      max-width: 100%;
+    }
+  
+    .tecs {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    
+    .projects h2 {
+      font-size: 26px;
+    }
+    .projects { 
+      text-align: center;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+    .view{
+      gap: 0px;
+     
+    }
+    .project {
+      width: 600px;
+      padding: 30px;
+    }
+  
+    .button1,
+    .button2 {
+      font-size: 14px;
+      width: 100%;
+      max-width: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel{
+      max-width: 80vw;
+    }
+    .projects h2 {
+      font-size: 22px;
+      width: 100%;
+    }
+    .projects { 
+      text-align: center;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+    .view{
+      gap: 0px;
+    }
+    .project {
+      padding: 20px;
+      width: 100%;
+    }
+    .p{
+      font-size: 15px;
+    }
+    .button1,
+    .button2 {
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
+  
+ 
+  

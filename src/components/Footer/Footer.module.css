@@ -43,6 +43,7 @@ label{
     border-radius: 8px;
     font-size: 1rem;
     background-color: #f0f0f085;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .form input:focus, .form_text:focus {
@@ -108,4 +109,61 @@ label{
 }
 .footer p a:hover{
     color: var(--secondary-color);
+}
+
+@media(max-width: 768px){
+    .footer{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .contato_main{
+        width: 100%;
+        height: 100%;
+    }
+    label{
+        font-size: 20px;
+    }
+    .form input, .form_text{
+        width: 60vw;
+    }
+    .p_footer{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+}
+@media(max-width: 500px){
+    .footer{
+        width: 100vw;
+        height: 100vh;
+        background: radial-gradient(circle, rgba(88, 30, 40, 1) 0%, rgba(150, 93, 93, 1) 100%);
+        
+    }
+    .form{
+        background:none;
+        
+    }
+    .contato_main{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    
+    .form input, .form_text{
+        width: 80vw;
+    }
+    .icons_contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: #260c1142;
+        padding: 13px;
+    }
+    .p_footer{
+        display: none;
+    }
 }

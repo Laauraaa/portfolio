@@ -1,0 +1,26 @@
+.scrollbtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--dark-pink);
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.scrollbtn:hover{
+    background-color: var(--secondary-color);
+}
+.scrollbtn:focus{
+    outline: none;
+}

@@ -3,11 +3,17 @@ import {
     SiNodedotjs, SiPostgresql,
     SiPython
   } from 'react-icons/si';
-  
+
+
+import { SequencedFlip } from '../Animation/Components/Sequential/SequentialAnimation';
 import styles from './About.module.css'
+
 export function About(){
     return(
         <div className={styles.about} id='about'>
+
+            <SequencedFlip>
+
 
             <div className={styles.text_area} >
 
@@ -96,6 +102,8 @@ export function About(){
                 </div>
         
             </div>
+            </SequencedFlip>
+
 
         </div>
     )

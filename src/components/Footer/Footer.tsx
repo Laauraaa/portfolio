@@ -1,30 +1,39 @@
 import { SiGithub, SiLinkedin, SiGmail } from 'react-icons/si';
 
+import { SequencedFlip } from '../Animation/Components/Sequential/SequentialAnimation';
 
 import styles from './Footer.module.css'
 export function Footer(){
     return(
-        <div className={styles.footer} id='contact'>
+        <div className={styles.footer} >
+            <SequencedFlip>
 
-            <div className={styles.contato_main}>
+            <div className={styles.contato_main} id='contact'>
                 <div>
+                    <form action="https://api.staticforms.xyz/submit" method='POST'>
+                    <input type="hidden" name="apiKey" value="sf_816e0e28ilml86fajnhlh6bn"></input>
+                    <input type="hidden" name="redirectTo" value= "http://localhost:5173/success" />
+
 
                     <div className={styles.form}>
                         <h2>CONTATO</h2>
-
+                        <form action=""></form>
                         <label>Nome</label>
-                        <input type="text" name="" id="" placeholder='Exemplo: João da Silva'/>
+                        <input type="text" name="name" id="name" placeholder='João da Silva' required/>
 
                         <label>Seu email</label>
-                        <input type="email" name="" id="" placeholder='Exemplo: email@gmail.com'/>
+                        <input type="email" name="email" id="email" placeholder='email@gmail.com' required/>
 
                         <label>Mensagem</label>
-                        <textarea name="mensagem" className={styles.form_text} placeholder="Digite sua mensagem..."></textarea>
+                        <textarea name="message" id='message' className={styles.form_text} placeholder="Digite sua mensagem..." required></textarea>
 
                         <button type='submit'>Enviar</button>
+
                     </div>
 
-                    <p>
+                    </form>
+
+                    <p className={styles.p_footer}>
                         © 2025 Desenvolvido por <a href="https://github.com/Laauraaa" target="_blank">Laura Messias</a>.
                     </p>
                 
@@ -35,6 +44,7 @@ export function Footer(){
                     <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSPGFjCQcmsDQJZqTWTJffvkBPxjClpJVSpJWHKGmCttKvZtvxDSrdqZGFjpGGKNZKvfhSNw" target="_blank"> <SiGmail className={styles.icon_contact}/> </a>
                 </div>
             </div>
+            </SequencedFlip>
             
         </div>
     )

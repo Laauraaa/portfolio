@@ -1,0 +1,19 @@
+.success{
+    
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.successH1{
+    color: var(--primary-color);
+}
+
+.success p {
+    font-size: 20px;
+}
