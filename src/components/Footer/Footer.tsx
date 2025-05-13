@@ -12,7 +12,7 @@ export function Footer(){
                 <div>
                     <form action="https://api.staticforms.xyz/submit" method='POST'>
                     <input type="hidden" name="apiKey" value="sf_816e0e28ilml86fajnhlh6bn"></input>
-                    <input type="hidden" name="redirectTo" value= "http://localhost:5173/success" />
+                    <input type="hidden" name="redirectTo" value= "https://portfolio-sglx/success.onrender.com" />
 
 
                     <div className={styles.form}>
