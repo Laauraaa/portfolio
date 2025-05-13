@@ -18,7 +18,7 @@ export function About(){
             <div className={styles.text_area} >
 
                 <div>
-                    <img src="../../public/img/icon-me.png" alt="" className={styles.icon_me}/>
+                    <img src="dist/icon-me.png" alt="" className={styles.icon_me}/>
                 </div>
 
                 <div className={styles.text}>
