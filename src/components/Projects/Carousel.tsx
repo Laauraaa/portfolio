@@ -63,7 +63,7 @@ export function Carousel() {
                   <a href="https://github.com/Laauraaa/portfolio" target="_blank">
                     <button className={styles.button1}>REPOSITÓRIO</button>
                   </a>
-                  <a href="" target="_blank">
+                  <a href="https://portfolio-sglx.onrender.com" target="_blank">
                     <button className={styles.button2}>SITE</button>
                   </a>
                     
