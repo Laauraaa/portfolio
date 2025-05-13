@@ -5,10 +5,10 @@ import { SequencedFlip } from '../Animation/Components/Sequential/SequentialAnim
 import styles from './Footer.module.css'
 export function Footer(){
     return(
-        <div className={styles.footer} >
+        <div className={styles.footer} id='contact'>
             <SequencedFlip>
 
-            <div className={styles.contato_main} id='contact'>
+            <div className={styles.contato_main}>
                 <div>
                     <form action="https://api.staticforms.xyz/submit" method='POST'>
                     <input type="hidden" name="apiKey" value="sf_816e0e28ilml86fajnhlh6bn"></input>
