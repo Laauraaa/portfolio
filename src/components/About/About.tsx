@@ -25,13 +25,7 @@ export function About(){
 
                     <h3>SOBRE MIM</h3>
 
-                    <p>Olá! Meu nome é Laura, sou estudante de Ciência da Computação e apaixonada por tecnologia e desenvolvimento web. Ao longo da minha jornada, venho me dedicando especialmente ao ecossistema JavaScript, com foco em TypeScript, Angular, React e Node.js.
-
-                    Gosto de criar soluções funcionais, organizadas e com boa experiência para o usuário. Tenho interesse tanto pelo front-end quanto pelo back-end, mas o que realmente me motiva é resolver problemas de forma criativa e aprender algo novo em cada projeto.
-
-                    Atualmente, estou aprofundando meus conhecimentos em APIs, modelagem de sistemas e boas práticas de desenvolvimento. Além disso, estou sempre buscando melhorar minhas habilidades em versionamento com Git, testes automatizados e arquitetura de software.
-
-                    Se quiser ver mais do meu trabalho, dá uma olhada nos projetos aqui do portfólio!
+                    <p>Olá! Meu nome é Laura, sou estudante de Ciência da Computação e apaixonada por tecnologia e desenvolvimento web. Tenho facilidade para aprender e resolver problemas de forma lógica e criativa, buscando sempre soluções eficientes e bem estruturadas. Embora eu tenha me dedicado bastante ao ecossistema JavaScript, com foco em TypeScript, Angular, React e Node.js, meu conhecimento não se limita a linguagens ou bibliotecas. Gosto de entender o problema, pensar na melhor forma de resolvê-lo e aplicar as ferramentas mais adequadas para isso. Tenho interesse tanto no front-end quanto no back-end, e estou sempre em busca de aprimorar minhas habilidades em APIs, modelagem de sistemas, Git, testes automatizados e boas práticas de desenvolvimento. Se quiser conhecer um pouco mais sobre meu trabalho, dá uma olhada nos projetos aqui do portfólio!
                     </p>
 
                 </div>

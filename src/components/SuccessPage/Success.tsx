@@ -1,10 +1,10 @@
 import styles from './Success.module.css'
 import { useNavigate } from 'react-router-dom';
 export function Success(){
-    const navigate = useNavigate(); // Inicializando o hook
+    const navigate = useNavigate(); 
 
-    const handleBackToHome = (event: React.MouseEvent<HTMLButtonElement>) => {
-        navigate('/'); // Redireciona para a página inicial
+    const handleBackToHome = () => {
+        navigate('/'); 
     };
     return(
         <div className={styles.success}>

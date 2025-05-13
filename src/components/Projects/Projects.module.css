@@ -8,6 +8,7 @@
 }
 h2{
     color: var(--primary-color);
+    margin-left:70px;
 } 
 .projects h2{
     font-size: 30px;
@@ -123,12 +124,16 @@ img{
       justify-content: center;
       flex-wrap: wrap;
     }
+    .projects h2{
+      margin-left: 0px;
+    }
   }
   
   @media (max-width: 768px) {
     
     .projects h2 {
       font-size: 26px;
+      margin-left: 0px;
     }
     .projects { 
       text-align: center;
@@ -159,6 +164,7 @@ img{
     }
     .projects h2 {
       font-size: 22px;
+      margin-left: 0px;
       width: 100%;
     }
     .projects { 
