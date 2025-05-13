@@ -50,7 +50,7 @@ export function Carousel() {
         
         <div>
             <div className={styles.project}>
-                <img src="public/img/portfolio.jpg" alt="" />
+                <img src="/img/portfolio.jpg" alt="" />
                 <div className={styles.tecs}>
                     <SiHtml5 title='HTML' className={styles.tec} />
                     <SiCss3 title='CSS' className={styles.tec} />
@@ -75,7 +75,7 @@ export function Carousel() {
         <div>
 
             <div className={styles.project}>
-                <img src="public/img/weatherforecast.jpg" alt="" />
+                <img src="/img/weatherforecast.jpg" alt="" />
                 <div className={styles.tecs}>
                     <SiHtml5 title='HTML' className={styles.tec} />
                     <SiCss3 title='CSS' className={styles.tec} />
@@ -96,7 +96,7 @@ export function Carousel() {
 
         <div>
             <div className={styles.project}>
-                <img src="public/img/businesscard.jpg" alt="" />
+                <img src="/img/businesscard.jpg" alt="" />
                 <div className={styles.tecs}>
                     <SiHtml5 title='HTML' className={styles.tec} />
                     <SiCss3 title='CSS' className={styles.tec} />
@@ -118,7 +118,7 @@ export function Carousel() {
 
         <div> 
             <div className={styles.project}>
-                <img src="public/img/movies.jpg" alt="" />
+                <img src="/img/movies.jpg" alt="" />
                 <div className={styles.tecs}>
                     <SiHtml5 title='HTML' className={styles.tec} />
                     <SiCss3 title='CSS' className={styles.tec} />
