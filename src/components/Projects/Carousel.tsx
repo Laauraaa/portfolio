@@ -72,26 +72,6 @@ export function Carousel() {
             </div>
         </div>
 
-        <div>
-
-            <div className={styles.project}>
-                <img src="/img/weatherforecast.JPG" alt="" />
-                <div className={styles.tecs}>
-                    <SiHtml5 title='HTML' className={styles.tec} />
-                    <SiCss3 title='CSS' className={styles.tec} />
-                    <SiAngular title='Angular' className={styles.tec} />
-                    <SiNodedotjs title='Node.js' className={styles.tec} />
-                    <SiJavascript title='Javascript' className={styles.tec} />
-                    <SiTypescript title='Typescript' className={styles.tec} />
-                </div>
-                <p className={styles.p}>Aplicação web desenvolvida com Angular. O objetivo principal era consumir uma API e exibir seus dados de forma dinâmica. Além disso, a chave da API foi armazenada com segurança no backend feito com Node.js, utilizando variáveis de ambiente (.env) para proteger informações sensíveis contra acessos indevidos ou não autorizados.</p>
-                <div>
-                    <a href="https://project-weather-forecast.onrender.com" target="_blank">
-                    <button className={styles.button2}>SITE</button>
-                    </a>
-                </div>
-            </div>
-        </div>
 
 
         <div>
@@ -134,6 +114,23 @@ export function Carousel() {
                     <a href="https://acervo-de-filmes.onrender.com" target="_blank">
                       <button className={styles.button2}>SITE</button>
                     </a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div className={styles.project}>
+                <img src="/img/weatherforecast.JPG" alt="" />
+                <div className={styles.tecs}>
+                    <SiHtml5 title='HTML' className={styles.tec} />
+                    <SiCss3 title='CSS' className={styles.tec} />
+                    <SiAngular title='Angular' className={styles.tec} />
+                    <SiNodedotjs title='Node.js' className={styles.tec} />
+                    <SiJavascript title='Javascript' className={styles.tec} />
+                    <SiTypescript title='Typescript' className={styles.tec} />
+                </div>
+                <p className={styles.p}>Aplicação web desenvolvida com Angular. O objetivo principal era consumir uma API e exibir seus dados de forma dinâmica. Além disso, a chave da API foi armazenada com segurança no backend feito com Node.js, utilizando variáveis de ambiente (.env) para proteger informações sensíveis contra acessos indevidos ou não autorizados.</p>
+                <div>
+                   
                 </div>
             </div>
         </div>
