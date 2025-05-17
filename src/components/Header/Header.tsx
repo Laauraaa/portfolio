@@ -11,7 +11,7 @@ export function Header(){
         <header>
          <div className={styles.center}>
              <div className={styles.text}>
-                 <h1 className={animation.typing}>Laura, <span>Desenvolvedora Fullstack</span></h1>
+                 <h1 className={animation.typing}>Laura, <span>Desenvolvedora Web</span></h1>
                  <h3>Explore meus projetos e conheça mais sobre minha jornada como desenvolvedora.</h3>
                  
              </div>
