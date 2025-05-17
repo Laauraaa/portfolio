@@ -3,11 +3,11 @@
   .typing {
     font-family: monospace;
     border-right: 4px solid color;
-    width: 32ch;
+    width: 25ch;
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(32), blinking 0.5s infinite step-end alternate;
+    animation: typing 2s steps(25), blinking 0.5s infinite step-end alternate;
   }
   
   @keyframes typing{
@@ -17,7 +17,7 @@
   }
   @keyframes blinking{
     50%{
-      border-color: transparent;
+      border-color: var(--primary-color);
     }
   }
 }
