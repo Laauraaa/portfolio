@@ -5,7 +5,7 @@ import { SequencedFlip } from '../Animation/Components/Sequential/SequentialAnim
 import styles from './Footer.module.css'
 export function Footer(){
     return(
-        <div className={styles.footer} id='contact'>
+        <section className={styles.footer} id='contact'>
             <SequencedFlip>
 
             <div className={styles.contato_main}>
@@ -46,6 +46,6 @@ export function Footer(){
             </div>
             </SequencedFlip>
             
-        </div>
+        </section>
     )
 }

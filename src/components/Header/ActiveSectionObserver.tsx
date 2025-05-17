@@ -10,15 +10,17 @@ export function ActiveSectionObserver() {
       (entries) => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
-            setActiveSection(entry.target.id);
+           setActiveSection(entry.target.id);
             break;
           }
         }
       },
       {
-        threshold: 0.6,
+        threshold: 0.3,
+        rootMargin: '0px 0px -25% 0px',
       }
-    );
+);
+
 
     sections.forEach((section) => observer.observe(section));
     return () => observer.disconnect();
